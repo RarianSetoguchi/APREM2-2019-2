@@ -23,11 +23,11 @@ int main()
 
     //Código do programa
 
-        for (i = 0; i < 10; i++)
+    for (i = 0; i < 10; i++)
     {
         cout << "Digite qualquer número para o valor "<< i + 1 << ": \n";
-    cin >> vet[i];
-    system("cls");
+        cin >> vet[i];
+        system("cls");
     }
 
     for (i = 0; i < 10; i++)
@@ -42,7 +42,7 @@ int main()
     {
         if (vet[i] >= 0)
         {
-        fSoma = fSoma + vet[i];
+            fSoma = fSoma + vet[i];
         }
     }
 
@@ -52,4 +52,5 @@ int main()
 
     return 0;
 }
+
 
